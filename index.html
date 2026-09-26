@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="הדגמת אנימציית גלילה ברצף תמונות – כוס קפה מסתובבת עם הגלילה." />
+    <title>רגע של קפה</title>
+    <link rel="icon" type="image/svg+xml" href="/scroll-demo/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;500;700&family=Heebo:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="/scroll-demo/assets/index-CaIXRrcl.js"></script>
+    <link rel="stylesheet" crossorigin href="/scroll-demo/assets/index-CuoU42KY.css">
+  </head>
+  <body>
+    <div class="loader" aria-live="polite">
+      <div class="loader__ring"></div>
+      <p class="loader__text"><span class="loader__pct">0</span>%</p>
+    </div>
+
+    <div class="stage" aria-hidden="true">
+      <canvas class="stage__canvas"></canvas>
+      <div class="stage__vignette"></div>
+      <div class="stage__grain"></div>
+    </div>
+
+    <header class="topbar">
+      <span class="topbar__brand">רגע של קפה</span>
+      <span class="topbar__deg"><span class="deg">0</span>°</span>
+    </header>
+    <div class="progress"><div class="progress__bar"></div></div>
+
+    <main>
+      <section class="hero">
+        <p class="eyebrow">הדגמת גלילה · רצף תמונות</p>
+        <h1 class="hero__title">
+          <span class="line"><span>רגע</span></span>
+          <span class="line"><span>של קפה.</span></span>
+        </h1>
+        <p class="hero__lead">גללו לאט, והכוס תסתובב איתכם.</p>
+        <div class="hero__hint">
+          <span>גללו</span>
+          <i></i>
+        </div>
+      </section>
+
+      <section class="story">
+        <article class="step">
+          <div class="step__inner">
+            <span class="step__num">01</span>
+            <h2>חומר.</h2>
+            <p>כל כוס מתחילה בגוש חימר חסר צורה. ידיים, אובניים וסבלנות הופכים אותו לקו רך אחד שנפתח למעלה.</p>
+          </div>
+        </article>
+        <article class="step">
+          <div class="step__inner">
+            <span class="step__num">02</span>
+            <h2>אש.</h2>
+            <p>בתנור של 1,200 מעלות הזיגוג נמס לזכוכית. כל סדק וכל קו חרוט נשארים שם, בדיוק כמו שנוצרו.</p>
+          </div>
+        </article>
+        <article class="step">
+          <div class="step__inner">
+            <span class="step__num">03</span>
+            <h2>חום.</h2>
+            <p>הקפה נמזג, האדים עולים, והקרמיקה העבה שומרת על החום עוד כמה דקות ארוכות.</p>
+          </div>
+        </article>
+        <article class="step">
+          <div class="step__inner">
+            <span class="step__num">04</span>
+            <h2>רגע.</h2>
+            <p>סיבוב שלם של 360 מעלות, והכוס חוזרת בדיוק לנקודה שבה התחילה. עכשיו אפשר לשתות.</p>
+          </div>
+        </article>
+      </section>
+
+      <section class="outro">
+        <h2 class="outro__title">גללו חזרה למעלה<br />כדי לסובב שוב.</h2>
+        <p class="outro__credit">
+          וידאו: <a href="https://www.pexels.com/video/a-cup-of-coffee-on-a-black-background-9534789/" target="_blank" rel="noopener">max laurell ב-Pexels</a>
+          · נבנה על ידי HershtikTec
+        </p>
+        <p class="outro__stack">Vite · GSAP ScrollTrigger · Lenis · Canvas</p>
+      </section>
+    </main>
+
+  </body>
+</html>
